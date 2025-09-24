@@ -1,0 +1,26 @@
+# file name: requirements.txt
+
+# Core dependencies for Two Sigma Financial Market Prediction
+
+# Data processing and analysis
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Machine learning
+scikit-learn>=1.0.0
+lightgbm>=3.2.0
+
+# Kaggle competition specific
+kaggle>=1.5.12
+
+# Development and testing
+pytest>=6.0.0
+pytest-cov>=2.10.0
+
+# Optional: Jupyter for notebook development
+jupyter>=1.0.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Optional: Advanced optimization
+# scikit-optimize>=0.9.0  # Uncomment if using Bayesian optimization
